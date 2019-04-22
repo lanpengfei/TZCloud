@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E1BB3972269B94200C43449 /* BasicRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3952269B94200C43449 /* BasicRequest.m */; };
+		6E1BB3A62269B9AB00C43449 /* NSDictionary+TZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB39A2269B9AB00C43449 /* NSDictionary+TZ.m */; };
+		6E1BB3A72269B9AB00C43449 /* NSMutableDictionary+Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB39C2269B9AB00C43449 /* NSMutableDictionary+Value.m */; };
+		6E1BB3A82269B9AB00C43449 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB39F2269B9AB00C43449 /* NSObject+Log.m */; };
+		6E1BB3A92269B9AB00C43449 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3A32269B9AB00C43449 /* UIView+Frame.m */; };
+		6E1BB3AD2269B9E900C43449 /* TZHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3AB2269B9E900C43449 /* TZHTTPRequest.m */; };
+		6E1BB3AF2269BA6D00C43449 /* URL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E1BB3AE2269BA6D00C43449 /* URL.plist */; };
+		6E80DB822264551500D638E6 /* UIImage+TZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80DB812264551500D638E6 /* UIImage+TZ.m */; };
+		6E80DB902264745700D638E6 /* UIDevice+TZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80DB8F2264745700D638E6 /* UIDevice+TZ.m */; };
+		6E94165B218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E941659218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld */; };
+		6E94165D218AD7FC00916F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E94165C218AD7FC00916F30 /* Assets.xcassets */; };
+		6E941663218AD7FC00916F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E941662218AD7FC00916F30 /* main.m */; };
+		6E941672218AE0A700916F30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E94166C218AE0A700916F30 /* ViewController.m */; };
+		6E941673218AE0A700916F30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E941670218AE0A700916F30 /* AppDelegate.m */; };
+		6ECC212A2264431E00F0D431 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC21242264431E00F0D431 /* LoginViewModel.m */; };
+		6ECC212B2264431E00F0D431 /* TZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC21272264431E00F0D431 /* TZLoginViewController.m */; };
+		6ECC212E2264434800F0D431 /* TZLoginInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC212D2264434800F0D431 /* TZLoginInputView.m */; };
+		FF6C7526A330EDC89747F64A /* libPods-TianZhiClouod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B108731DACFA913FAD1405 /* libPods-TianZhiClouod.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B884134330F01DAAC2F1455 /* Pods-TianZhiClouod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianZhiClouod.release.xcconfig"; path = "Pods/Target Support Files/Pods-TianZhiClouod/Pods-TianZhiClouod.release.xcconfig"; sourceTree = "<group>"; };
+		6E1BB3952269B94200C43449 /* BasicRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicRequest.m; sourceTree = "<group>"; };
+		6E1BB3962269B94200C43449 /* BasicRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicRequest.h; sourceTree = "<group>"; };
+		6E1BB39A2269B9AB00C43449 /* NSDictionary+TZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TZ.m"; sourceTree = "<group>"; };
+		6E1BB39B2269B9AB00C43449 /* NSDictionary+TZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TZ.h"; sourceTree = "<group>"; };
+		6E1BB39C2269B9AB00C43449 /* NSMutableDictionary+Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Value.m"; sourceTree = "<group>"; };
+		6E1BB39E2269B9AB00C43449 /* NSMutableDictionary+Value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Value.h"; sourceTree = "<group>"; };
+		6E1BB39F2269B9AB00C43449 /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		6E1BB3A02269B9AB00C43449 /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		6E1BB3A12269B9AB00C43449 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		6E1BB3A32269B9AB00C43449 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		6E1BB3AA2269B9E900C43449 /* TZHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZHTTPRequest.h; sourceTree = "<group>"; };
+		6E1BB3AB2269B9E900C43449 /* TZHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZHTTPRequest.m; sourceTree = "<group>"; };
+		6E1BB3AC2269B9E900C43449 /* TZRequestURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZRequestURL.h; sourceTree = "<group>"; };
+		6E1BB3AE2269BA6D00C43449 /* URL.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = URL.plist; sourceTree = "<group>"; };
+		6E80DB802264551500D638E6 /* UIImage+TZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TZ.h"; sourceTree = "<group>"; };
+		6E80DB812264551500D638E6 /* UIImage+TZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TZ.m"; sourceTree = "<group>"; };
+		6E80DB8E2264745700D638E6 /* UIDevice+TZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TZ.h"; sourceTree = "<group>"; };
+		6E80DB8F2264745700D638E6 /* UIDevice+TZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TZ.m"; sourceTree = "<group>"; };
+		6E8FFB91218AEE1C000E39A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6E94164D218AD7FB00916F30 /* TianZhiClouod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TianZhiClouod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E94165A218AD7FB00916F30 /* TianZhiClouod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TianZhiClouod.xcdatamodel; sourceTree = "<group>"; };
+		6E94165C218AD7FC00916F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E941661218AD7FC00916F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E941662218AD7FC00916F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E94166B218AE0A700916F30 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E94166C218AE0A700916F30 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E941670218AE0A700916F30 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E941671218AE0A700916F30 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6ECC21232264431E00F0D431 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		6ECC21242264431E00F0D431 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		6ECC21262264431E00F0D431 /* TZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLoginViewController.h; sourceTree = "<group>"; };
+		6ECC21272264431E00F0D431 /* TZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLoginViewController.m; sourceTree = "<group>"; };
+		6ECC212C2264434800F0D431 /* TZLoginInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLoginInputView.h; sourceTree = "<group>"; };
+		6ECC212D2264434800F0D431 /* TZLoginInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLoginInputView.m; sourceTree = "<group>"; };
+		6ECC21312264447100F0D431 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		923A0303FBEF0B2136FE3A2E /* Pods-TianZhiClouod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianZhiClouod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TianZhiClouod/Pods-TianZhiClouod.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B108731DACFA913FAD1405 /* libPods-TianZhiClouod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TianZhiClouod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E94164A218AD7FB00916F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6C7526A330EDC89747F64A /* libPods-TianZhiClouod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29F94EDF5787C7CB3B34A449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				923A0303FBEF0B2136FE3A2E /* Pods-TianZhiClouod.debug.xcconfig */,
+				6B884134330F01DAAC2F1455 /* Pods-TianZhiClouod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E80DB7F226454FF00D638E6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6E1BB39B2269B9AB00C43449 /* NSDictionary+TZ.h */,
+				6E1BB39A2269B9AB00C43449 /* NSDictionary+TZ.m */,
+				6E1BB39E2269B9AB00C43449 /* NSMutableDictionary+Value.h */,
+				6E1BB39C2269B9AB00C43449 /* NSMutableDictionary+Value.m */,
+				6E1BB3A02269B9AB00C43449 /* NSObject+Log.h */,
+				6E1BB39F2269B9AB00C43449 /* NSObject+Log.m */,
+				6E1BB3A12269B9AB00C43449 /* UIView+Frame.h */,
+				6E1BB3A32269B9AB00C43449 /* UIView+Frame.m */,
+				6E80DB802264551500D638E6 /* UIImage+TZ.h */,
+				6E80DB812264551500D638E6 /* UIImage+TZ.m */,
+				6E80DB8E2264745700D638E6 /* UIDevice+TZ.h */,
+				6E80DB8F2264745700D638E6 /* UIDevice+TZ.m */,
+			);
+			name = Category;
+			path = Classes/Category;
+			sourceTree = "<group>";
+		};
+		6E80DB8722645A5E00D638E6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				6E1BB3AC2269B9E900C43449 /* TZRequestURL.h */,
+				6E1BB3AA2269B9E900C43449 /* TZHTTPRequest.h */,
+				6E1BB3AB2269B9E900C43449 /* TZHTTPRequest.m */,
+				6E1BB3962269B94200C43449 /* BasicRequest.h */,
+				6E1BB3952269B94200C43449 /* BasicRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6E941644218AD7FB00916F30 = {
+			isa = PBXGroup;
+			children = (
+				6E94164F218AD7FB00916F30 /* TianZhiClouod */,
+				6E94164E218AD7FB00916F30 /* Products */,
+				29F94EDF5787C7CB3B34A449 /* Pods */,
+				C6F237341B6B8AD76A9FDE98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E94164E218AD7FB00916F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E94164D218AD7FB00916F30 /* TianZhiClouod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E94164F218AD7FB00916F30 /* TianZhiClouod */ = {
+			isa = PBXGroup;
+			children = (
+				6E941669218AE0A700916F30 /* Classes */,
+				6ECC212F2264441C00F0D431 /* Base */,
+				6ECC21302264441C00F0D431 /* Tool */,
+				6E80DB7F226454FF00D638E6 /* Category */,
+				6E80DB8722645A5E00D638E6 /* Request */,
+				6E94165C218AD7FC00916F30 /* Assets.xcassets */,
+				6E941661218AD7FC00916F30 /* Info.plist */,
+				6E941662218AD7FC00916F30 /* main.m */,
+				6E1BB3AE2269BA6D00C43449 /* URL.plist */,
+				6E8FFB91218AEE1C000E39A4 /* PrefixHeader.pch */,
+				6E941659218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld */,
+			);
+			path = TianZhiClouod;
+			sourceTree = "<group>";
+		};
+		6E941669218AE0A700916F30 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC21212264431E00F0D431 /* 登录 */,
+				6E94166B218AE0A700916F30 /* AppDelegate.h */,
+				6E941670218AE0A700916F30 /* AppDelegate.m */,
+				6E941671218AE0A700916F30 /* ViewController.h */,
+				6E94166C218AE0A700916F30 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6ECC21212264431E00F0D431 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC21222264431E00F0D431 /* ViewModel */,
+				6ECC21252264431E00F0D431 /* Controller */,
+				6ECC21282264431E00F0D431 /* Model */,
+				6ECC21292264431E00F0D431 /* View */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		6ECC21222264431E00F0D431 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC21232264431E00F0D431 /* LoginViewModel.h */,
+				6ECC21242264431E00F0D431 /* LoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6ECC21252264431E00F0D431 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC21262264431E00F0D431 /* TZLoginViewController.h */,
+				6ECC21272264431E00F0D431 /* TZLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6ECC21282264431E00F0D431 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ECC21292264431E00F0D431 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC212C2264434800F0D431 /* TZLoginInputView.h */,
+				6ECC212D2264434800F0D431 /* TZLoginInputView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6ECC212F2264441C00F0D431 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base;
+			path = Classes/Base;
+			sourceTree = "<group>";
+		};
+		6ECC21302264441C00F0D431 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6ECC21312264447100F0D431 /* Define.h */,
+			);
+			name = Tool;
+			path = Classes/Tool;
+			sourceTree = "<group>";
+		};
+		C6F237341B6B8AD76A9FDE98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B108731DACFA913FAD1405 /* libPods-TianZhiClouod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E94164C218AD7FB00916F30 /* TianZhiClouod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E941666218AD7FC00916F30 /* Build configuration list for PBXNativeTarget "TianZhiClouod" */;
+			buildPhases = (
+				7CF17BC9DFF7BE11150A3218 /* [CP] Check Pods Manifest.lock */,
+				6E941649218AD7FB00916F30 /* Sources */,
+				6E94164A218AD7FB00916F30 /* Frameworks */,
+				6E94164B218AD7FB00916F30 /* Resources */,
+				A3E019BE9937FD8E003AA255 /* [CP] Embed Pods Frameworks */,
+				DF931ECE86CE9FA819CB9674 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TianZhiClouod;
+			productName = TianZhiClouod;
+			productReference = 6E94164D218AD7FB00916F30 /* TianZhiClouod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E941645218AD7FB00916F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = CASICloud;
+				TargetAttributes = {
+					6E94164C218AD7FB00916F30 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6E941648218AD7FB00916F30 /* Build configuration list for PBXProject "TianZhiClouod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E941644218AD7FB00916F30;
+			productRefGroup = 6E94164E218AD7FB00916F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E94164C218AD7FB00916F30 /* TianZhiClouod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E94164B218AD7FB00916F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1BB3AF2269BA6D00C43449 /* URL.plist in Resources */,
+				6E94165D218AD7FC00916F30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CF17BC9DFF7BE11150A3218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TianZhiClouod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E019BE9937FD8E003AA255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TianZhiClouod/Pods-TianZhiClouod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF931ECE86CE9FA819CB9674 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TianZhiClouod/Pods-TianZhiClouod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E941649218AD7FB00916F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECC212B2264431E00F0D431 /* TZLoginViewController.m in Sources */,
+				6E80DB822264551500D638E6 /* UIImage+TZ.m in Sources */,
+				6E1BB3A82269B9AB00C43449 /* NSObject+Log.m in Sources */,
+				6E941673218AE0A700916F30 /* AppDelegate.m in Sources */,
+				6ECC212E2264434800F0D431 /* TZLoginInputView.m in Sources */,
+				6E1BB3AD2269B9E900C43449 /* TZHTTPRequest.m in Sources */,
+				6E941672218AE0A700916F30 /* ViewController.m in Sources */,
+				6E1BB3A62269B9AB00C43449 /* NSDictionary+TZ.m in Sources */,
+				6E80DB902264745700D638E6 /* UIDevice+TZ.m in Sources */,
+				6E94165B218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld in Sources */,
+				6E1BB3A92269B9AB00C43449 /* UIView+Frame.m in Sources */,
+				6E1BB3972269B94200C43449 /* BasicRequest.m in Sources */,
+				6ECC212A2264431E00F0D431 /* LoginViewModel.m in Sources */,
+				6E941663218AD7FC00916F30 /* main.m in Sources */,
+				6E1BB3A72269B9AB00C43449 /* NSMutableDictionary+Value.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E941664218AD7FC00916F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E941665218AD7FC00916F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E941667218AD7FC00916F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923A0303FBEF0B2136FE3A2E /* Pods-TianZhiClouod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y89V2BL9DN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TianZhiClouod/PrefixHeader.pch";
+				INFOPLIST_FILE = TianZhiClouod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.casicloud.www.TianZhiClouod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6E941668218AD7FC00916F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B884134330F01DAAC2F1455 /* Pods-TianZhiClouod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y89V2BL9DN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TianZhiClouod/PrefixHeader.pch";
+				INFOPLIST_FILE = TianZhiClouod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.casicloud.www.TianZhiClouod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E941648218AD7FB00916F30 /* Build configuration list for PBXProject "TianZhiClouod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E941664218AD7FC00916F30 /* Debug */,
+				6E941665218AD7FC00916F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E941666218AD7FC00916F30 /* Build configuration list for PBXNativeTarget "TianZhiClouod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E941667218AD7FC00916F30 /* Debug */,
+				6E941668218AD7FC00916F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E941659218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E94165A218AD7FB00916F30 /* TianZhiClouod.xcdatamodel */,
+			);
+			currentVersion = 6E94165A218AD7FB00916F30 /* TianZhiClouod.xcdatamodel */;
+			path = TianZhiClouod.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E941645218AD7FB00916F30 /* Project object */;
+}
