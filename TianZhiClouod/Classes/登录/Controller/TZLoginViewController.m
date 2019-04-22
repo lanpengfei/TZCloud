@@ -30,6 +30,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self lan_setupSubViews];
     [self initCommand];
+    self.title = @"登录";
 }
 #pragma mark - CLICK
 - (void)lan_clickLoginBtn {
