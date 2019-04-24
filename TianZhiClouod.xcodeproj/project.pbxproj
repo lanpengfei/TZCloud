@@ -14,6 +14,17 @@
 		6E1BB3A92269B9AB00C43449 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3A32269B9AB00C43449 /* UIView+Frame.m */; };
 		6E1BB3AD2269B9E900C43449 /* TZHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3AB2269B9E900C43449 /* TZHTTPRequest.m */; };
 		6E1BB3AF2269BA6D00C43449 /* URL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E1BB3AE2269BA6D00C43449 /* URL.plist */; };
+		6E1BB3B4226EB37E00C43449 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3B3226EB37E00C43449 /* BaseViewModel.m */; };
+		6E1BB3B7226EB39100C43449 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3B6226EB39100C43449 /* BaseViewController.m */; };
+		6E1BB3BA226EB40100C43449 /* TZCheckPhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3B9226EB40100C43449 /* TZCheckPhoneModel.m */; };
+		6E1BB3BD226F01F800C43449 /* TZPwdConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3BC226F01F800C43449 /* TZPwdConfirmViewController.m */; };
+		6E1BB3C022700A8D00C43449 /* TZLoginCheckPhoneViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3BF22700A8D00C43449 /* TZLoginCheckPhoneViewModel.m */; };
+		6E1BB3C32270376100C43449 /* TZUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3C22270376100C43449 /* TZUserManager.m */; };
+		6E1BB3C62270397800C43449 /* AlgorithmHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3C52270397800C43449 /* AlgorithmHelper.m */; };
+		6E1BB3C922703D9700C43449 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3C722703D9700C43449 /* NSDataAdditions.m */; };
+		6E1BB3CC227052C800C43449 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3CB227052C800C43449 /* BaseModel.m */; };
+		6E1BB3CF227053C500C43449 /* TZCompanyListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3CE227053C500C43449 /* TZCompanyListModel.m */; };
+		6E1BB3D22270590900C43449 /* TZCompanyListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3D12270590900C43449 /* TZCompanyListDataModel.m */; };
 		6E80DB822264551500D638E6 /* UIImage+TZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80DB812264551500D638E6 /* UIImage+TZ.m */; };
 		6E80DB902264745700D638E6 /* UIDevice+TZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80DB8F2264745700D638E6 /* UIDevice+TZ.m */; };
 		6E94165B218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E941659218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld */; };
@@ -21,7 +32,7 @@
 		6E941663218AD7FC00916F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E941662218AD7FC00916F30 /* main.m */; };
 		6E941672218AE0A700916F30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E94166C218AE0A700916F30 /* ViewController.m */; };
 		6E941673218AE0A700916F30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E941670218AE0A700916F30 /* AppDelegate.m */; };
-		6ECC212A2264431E00F0D431 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC21242264431E00F0D431 /* LoginViewModel.m */; };
+		6ECC212A2264431E00F0D431 /* TZLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC21242264431E00F0D431 /* TZLoginViewModel.m */; };
 		6ECC212B2264431E00F0D431 /* TZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC21272264431E00F0D431 /* TZLoginViewController.m */; };
 		6ECC212E2264434800F0D431 /* TZLoginInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECC212D2264434800F0D431 /* TZLoginInputView.m */; };
 		FF6C7526A330EDC89747F64A /* libPods-TianZhiClouod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B108731DACFA913FAD1405 /* libPods-TianZhiClouod.a */; };
@@ -43,6 +54,28 @@
 		6E1BB3AB2269B9E900C43449 /* TZHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZHTTPRequest.m; sourceTree = "<group>"; };
 		6E1BB3AC2269B9E900C43449 /* TZRequestURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZRequestURL.h; sourceTree = "<group>"; };
 		6E1BB3AE2269BA6D00C43449 /* URL.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = URL.plist; sourceTree = "<group>"; };
+		6E1BB3B2226EB37E00C43449 /* BaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		6E1BB3B3226EB37E00C43449 /* BaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		6E1BB3B5226EB39100C43449 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6E1BB3B6226EB39100C43449 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6E1BB3B8226EB40100C43449 /* TZCheckPhoneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZCheckPhoneModel.h; sourceTree = "<group>"; };
+		6E1BB3B9226EB40100C43449 /* TZCheckPhoneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZCheckPhoneModel.m; sourceTree = "<group>"; };
+		6E1BB3BB226F01F800C43449 /* TZPwdConfirmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZPwdConfirmViewController.h; sourceTree = "<group>"; };
+		6E1BB3BC226F01F800C43449 /* TZPwdConfirmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZPwdConfirmViewController.m; sourceTree = "<group>"; };
+		6E1BB3BE22700A8D00C43449 /* TZLoginCheckPhoneViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLoginCheckPhoneViewModel.h; sourceTree = "<group>"; };
+		6E1BB3BF22700A8D00C43449 /* TZLoginCheckPhoneViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLoginCheckPhoneViewModel.m; sourceTree = "<group>"; };
+		6E1BB3C12270376100C43449 /* TZUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZUserManager.h; sourceTree = "<group>"; };
+		6E1BB3C22270376100C43449 /* TZUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZUserManager.m; sourceTree = "<group>"; };
+		6E1BB3C42270397800C43449 /* AlgorithmHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmHelper.h; sourceTree = "<group>"; };
+		6E1BB3C52270397800C43449 /* AlgorithmHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmHelper.m; sourceTree = "<group>"; };
+		6E1BB3C722703D9700C43449 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		6E1BB3C822703D9700C43449 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		6E1BB3CA227052C800C43449 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		6E1BB3CB227052C800C43449 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		6E1BB3CD227053C500C43449 /* TZCompanyListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZCompanyListModel.h; sourceTree = "<group>"; };
+		6E1BB3CE227053C500C43449 /* TZCompanyListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZCompanyListModel.m; sourceTree = "<group>"; };
+		6E1BB3D02270590900C43449 /* TZCompanyListDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZCompanyListDataModel.h; sourceTree = "<group>"; };
+		6E1BB3D12270590900C43449 /* TZCompanyListDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZCompanyListDataModel.m; sourceTree = "<group>"; };
 		6E80DB802264551500D638E6 /* UIImage+TZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TZ.h"; sourceTree = "<group>"; };
 		6E80DB812264551500D638E6 /* UIImage+TZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TZ.m"; sourceTree = "<group>"; };
 		6E80DB8E2264745700D638E6 /* UIDevice+TZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TZ.h"; sourceTree = "<group>"; };
@@ -57,8 +90,8 @@
 		6E94166C218AE0A700916F30 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6E941670218AE0A700916F30 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E941671218AE0A700916F30 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6ECC21232264431E00F0D431 /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
-		6ECC21242264431E00F0D431 /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		6ECC21232264431E00F0D431 /* TZLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLoginViewModel.h; sourceTree = "<group>"; };
+		6ECC21242264431E00F0D431 /* TZLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLoginViewModel.m; sourceTree = "<group>"; };
 		6ECC21262264431E00F0D431 /* TZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLoginViewController.h; sourceTree = "<group>"; };
 		6ECC21272264431E00F0D431 /* TZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLoginViewController.m; sourceTree = "<group>"; };
 		6ECC212C2264434800F0D431 /* TZLoginInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLoginInputView.h; sourceTree = "<group>"; };
@@ -183,8 +216,10 @@
 		6ECC21222264431E00F0D431 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				6ECC21232264431E00F0D431 /* LoginViewModel.h */,
-				6ECC21242264431E00F0D431 /* LoginViewModel.m */,
+				6E1BB3BE22700A8D00C43449 /* TZLoginCheckPhoneViewModel.h */,
+				6E1BB3BF22700A8D00C43449 /* TZLoginCheckPhoneViewModel.m */,
+				6ECC21232264431E00F0D431 /* TZLoginViewModel.h */,
+				6ECC21242264431E00F0D431 /* TZLoginViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -194,6 +229,8 @@
 			children = (
 				6ECC21262264431E00F0D431 /* TZLoginViewController.h */,
 				6ECC21272264431E00F0D431 /* TZLoginViewController.m */,
+				6E1BB3BB226F01F800C43449 /* TZPwdConfirmViewController.h */,
+				6E1BB3BC226F01F800C43449 /* TZPwdConfirmViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +238,12 @@
 		6ECC21282264431E00F0D431 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6E1BB3B8226EB40100C43449 /* TZCheckPhoneModel.h */,
+				6E1BB3B9226EB40100C43449 /* TZCheckPhoneModel.m */,
+				6E1BB3D02270590900C43449 /* TZCompanyListDataModel.h */,
+				6E1BB3D12270590900C43449 /* TZCompanyListDataModel.m */,
+				6E1BB3CD227053C500C43449 /* TZCompanyListModel.h */,
+				6E1BB3CE227053C500C43449 /* TZCompanyListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -217,6 +260,12 @@
 		6ECC212F2264441C00F0D431 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				6E1BB3CA227052C800C43449 /* BaseModel.h */,
+				6E1BB3CB227052C800C43449 /* BaseModel.m */,
+				6E1BB3B2226EB37E00C43449 /* BaseViewModel.h */,
+				6E1BB3B3226EB37E00C43449 /* BaseViewModel.m */,
+				6E1BB3B5226EB39100C43449 /* BaseViewController.h */,
+				6E1BB3B6226EB39100C43449 /* BaseViewController.m */,
 			);
 			name = Base;
 			path = Classes/Base;
@@ -226,6 +275,12 @@
 			isa = PBXGroup;
 			children = (
 				6ECC21312264447100F0D431 /* Define.h */,
+				6E1BB3C12270376100C43449 /* TZUserManager.h */,
+				6E1BB3C22270376100C43449 /* TZUserManager.m */,
+				6E1BB3C42270397800C43449 /* AlgorithmHelper.h */,
+				6E1BB3C52270397800C43449 /* AlgorithmHelper.m */,
+				6E1BB3C822703D9700C43449 /* NSDataAdditions.h */,
+				6E1BB3C722703D9700C43449 /* NSDataAdditions.m */,
 			);
 			name = Tool;
 			path = Classes/Tool;
@@ -346,9 +401,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TianZhiClouod/Pods-TianZhiClouod-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,18 +423,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ECC212B2264431E00F0D431 /* TZLoginViewController.m in Sources */,
+				6E1BB3C922703D9700C43449 /* NSDataAdditions.m in Sources */,
+				6E1BB3BA226EB40100C43449 /* TZCheckPhoneModel.m in Sources */,
+				6E1BB3C022700A8D00C43449 /* TZLoginCheckPhoneViewModel.m in Sources */,
+				6E1BB3B4226EB37E00C43449 /* BaseViewModel.m in Sources */,
 				6E80DB822264551500D638E6 /* UIImage+TZ.m in Sources */,
+				6E1BB3C32270376100C43449 /* TZUserManager.m in Sources */,
 				6E1BB3A82269B9AB00C43449 /* NSObject+Log.m in Sources */,
 				6E941673218AE0A700916F30 /* AppDelegate.m in Sources */,
 				6ECC212E2264434800F0D431 /* TZLoginInputView.m in Sources */,
+				6E1BB3C62270397800C43449 /* AlgorithmHelper.m in Sources */,
+				6E1BB3BD226F01F800C43449 /* TZPwdConfirmViewController.m in Sources */,
 				6E1BB3AD2269B9E900C43449 /* TZHTTPRequest.m in Sources */,
+				6E1BB3B7226EB39100C43449 /* BaseViewController.m in Sources */,
+				6E1BB3CF227053C500C43449 /* TZCompanyListModel.m in Sources */,
 				6E941672218AE0A700916F30 /* ViewController.m in Sources */,
 				6E1BB3A62269B9AB00C43449 /* NSDictionary+TZ.m in Sources */,
+				6E1BB3D22270590900C43449 /* TZCompanyListDataModel.m in Sources */,
 				6E80DB902264745700D638E6 /* UIDevice+TZ.m in Sources */,
 				6E94165B218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld in Sources */,
+				6E1BB3CC227052C800C43449 /* BaseModel.m in Sources */,
 				6E1BB3A92269B9AB00C43449 /* UIView+Frame.m in Sources */,
 				6E1BB3972269B94200C43449 /* BasicRequest.m in Sources */,
-				6ECC212A2264431E00F0D431 /* LoginViewModel.m in Sources */,
+				6ECC212A2264431E00F0D431 /* TZLoginViewModel.m in Sources */,
 				6E941663218AD7FC00916F30 /* main.m in Sources */,
 				6E1BB3A72269B9AB00C43449 /* NSMutableDictionary+Value.m in Sources */,
 			);

@@ -11,7 +11,20 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIDevice (TZ)
+
+/**
+ 获取设备品牌
+
+ @return Apple
+ */
 + (NSString *)platform;
+
+/**
+ 获取设备唯一标识（UUID）
+
+ @return UUID
+ */
++ (NSString *)getUUID;
 @end
 
 NS_ASSUME_NONNULL_END

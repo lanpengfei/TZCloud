@@ -21,5 +21,23 @@
         failure(error);
     }];
 }
-
++ (void)postLoginWithUserName:(NSString *)userName
+                     password:(NSString *)password
+                     deviceId:(NSString *)deviceId
+                   deviceType:(NSString *)deviceType
+                  appClientId:(NSString *)appClientId
+                      success:(Success)success
+                      failure:(Failure)failure {
+    NSMutableDictionary *param = [NSMutableDictionary dictionary];
+    [param setNotNULLObject:userName forKey:@"userName"];
+    [param setNotNULLObject:password forKey:@"password"];
+    [param setNotNULLObject:deviceId forKey:@"deviceId"];
+    [param setNotNULLObject:deviceType forKey:@"deviceType"];
+    [param setNotNULLObject:appClientId forKey:@"appClientId"];
+    [BasicRequest postWithURL:URL_LOGIN params:param success:^(NSDictionary *response) {
+        success(response);
+    } failure:^(NSError *error) {
+        failure(error);
+    }];
+}
 @end

@@ -126,16 +126,6 @@
 
 //----------------------用户----------------------------
 
-//#define APPKEY      @"612fe25e-ec73-4013-bf07-6008af26d085"//这个我的消息没有权限
-//#define AppSecret   @"ebac13f1-8f5d-4c2d-9ab6-ba2daef38509"
-
-#define APPKEY      @"wenp"
-#define AppSecret   @"wenp"
-
-#define USERTOKEN_KEY @"access_token"
-#define USERTOKEN   [USER_DEFAULT objectForKey:USERTOKEN_KEY]
-
-#define COMPANYCOUNT @"home_company_count"
-#define DEVICECOUNT @"home_device_count"
+#define TZAppClientId @"10200"
 
 #endif /* Define_h */

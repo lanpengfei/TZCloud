@@ -17,5 +17,7 @@
 #pragma mark - 登陆
 #define URL_PHONE_CHECK [MainHTTP stringByAppendingPathComponent:@"openaccess/user/phonecheck_new"] //检查手机号
 
+#define URL_LOGIN [MainHTTP stringByAppendingPathComponent:@"openaccess/user/login"] //登录
+
 
 #endif /* TZRequestURL_h */

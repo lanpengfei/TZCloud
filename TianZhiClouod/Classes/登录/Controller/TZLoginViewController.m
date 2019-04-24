@@ -8,7 +8,9 @@
 
 #import "TZLoginViewController.h"
 #import "TZLoginInputView.h"
-#import "LoginViewModel.h"
+#import "TZLoginCheckPhoneViewModel.h"
+#import "TZPwdConfirmViewController.h"
+
 
 @interface TZLoginViewController ()
 
@@ -18,7 +20,7 @@
 //手机号
 @property (nonatomic, strong) TZLoginInputView * accountInputView;
 
-@property (nonatomic, strong) LoginViewModel * viewModel;
+@property (nonatomic, strong) TZLoginCheckPhoneViewModel * viewModel;
 
 @end
 
@@ -30,12 +32,12 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self lan_setupSubViews];
     [self initCommand];
-    self.title = @"登录";
 }
 #pragma mark - CLICK
 - (void)lan_clickLoginBtn {
     [self.view endEditing:YES];
-    [self.viewModel.loginActionCmd execute:nil];
+    [TZUserManager shareManager].mobile = self.accountInputView.textField.text;
+    [self.viewModel.checkPhoneCmd execute:nil];
 }
 
 
@@ -45,9 +47,9 @@
 }
 #pragma mark - RAC
 - (void)initCommand {
-    self.viewModel = [[LoginViewModel alloc]init];
+    self.viewModel = [[TZLoginCheckPhoneViewModel alloc]init];
     RAC(self.viewModel, mobile) = self.accountInputView.textField.rac_textSignal;
-    [[self.viewModel.loginActionCmd.executing skip:1] subscribeNext:^(NSNumber * _Nullable x) {
+    [[self.viewModel.checkPhoneCmd.executing skip:1] subscribeNext:^(NSNumber * _Nullable x) {
         if ([x boolValue]) {
             MBProgressHUD *HUD = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
             HUD.label.text = @"正在验证手机号...";
@@ -55,8 +57,10 @@
             [MBProgressHUD hideHUDForView:self.view animated:YES];
         }
     }];
-    [[self.viewModel.loginActionCmd.executionSignals switchToLatest]subscribeNext:^(id  _Nullable x) {
-        NSLog(@"返回数据：%@",x);
+    [[self.viewModel.checkPhoneCmd.executionSignals switchToLatest]subscribeNext:^(id  _Nullable x) {
+        TZPwdConfirmViewController *vc = [[TZPwdConfirmViewController alloc]init];
+        UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
+        [self presentViewController:navi animated:YES completion:nil];
     }];
 }
 #pragma mark - UI

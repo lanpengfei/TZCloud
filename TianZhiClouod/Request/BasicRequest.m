@@ -47,14 +47,12 @@
 
     NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithDictionary:params];
     NSString *version = [[NSBundle mainBundle]infoDictionary][@"CFBundleShortVersionString"];
-    NSString *ua = [NSString stringWithFormat:@"%@/%@;%@ %@;Apple;%@",@"10200",version,[UIDevice currentDevice].systemName,[UIDevice currentDevice].systemVersion,[UIDevice platform]];
+    NSString *ua = [NSString stringWithFormat:@"%@/%@;%@ %@;Apple;%@",TZAppClientId,version,[UIDevice currentDevice].systemName,[UIDevice currentDevice].systemVersion,[UIDevice platform]];
     [dic setObject:ua forKey:@"ua"];
 
     AFHTTPSessionManager *manager = [BasicRequest shareSessionManager];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];
     manager.requestSerializer.timeoutInterval = TimeoutInterval;
-    
-//    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html",@"text/plain",@"application/json",@"text/json", @"text/javascript", nil];
     [manager POST:url parameters:dic progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"\n***请求URL：%@\n***请求参数：%@\n***请求成功返回数据：%@",url,dic,responseObject);
         if ([responseObject isKindOfClass:[NSDictionary class]]) {
@@ -72,7 +70,7 @@
 + (void)postTokenWithURL:(NSString *)url params:(NSDictionary *)params success:(Success)success failure:(Failure)failure; {
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     [param setNotNULLObject:params forKey:@"data"];
-    [param setNotNULLObject:USERTOKEN forKey:@"access_token"];
+//    [param setNotNULLObject:USERTOKEN forKey:@"access_token"];
     
     AFHTTPSessionManager *manager = [BasicRequest shareSessionManager];
     manager.requestSerializer = [AFJSONRequestSerializer serializer];

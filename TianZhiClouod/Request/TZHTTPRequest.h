@@ -20,4 +20,19 @@
  */
 + (void)postCheckPhoneWithPhone:(NSString *)phone success:(Success)success failure:(Failure)failure;
 
+/**
+ 登录
+
+ @param userName 用户名
+ @param password 密码
+ @param deviceId 设备id
+ */
++ (void)postLoginWithUserName:(NSString *)userName
+                     password:(NSString *)password
+                     deviceId:(NSString *)deviceId
+                   deviceType:(NSString *)deviceType
+                  appClientId:(NSString *)appClientId
+                      success:(Success)success
+                      failure:(Failure)failure;
+
 @end

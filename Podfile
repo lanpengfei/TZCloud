@@ -13,5 +13,8 @@ pod 'JVFloatLabeledTextField'
 pod 'Masonry'
 pod 'SDWebImage'
 pod 'MBProgressHUD'
+pod 'MJExtension'
+pod 'SAMKeychain'
+pod 'IQKeyboardManager'
 
 end
