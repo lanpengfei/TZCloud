@@ -25,6 +25,7 @@
 		6E1BB3CC227052C800C43449 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3CB227052C800C43449 /* BaseModel.m */; };
 		6E1BB3CF227053C500C43449 /* TZCompanyListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3CE227053C500C43449 /* TZCompanyListModel.m */; };
 		6E1BB3D22270590900C43449 /* TZCompanyListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3D12270590900C43449 /* TZCompanyListDataModel.m */; };
+		6E1BB3D5227064F100C43449 /* TZChooseCompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BB3D4227064F100C43449 /* TZChooseCompanyViewController.m */; };
 		6E80DB822264551500D638E6 /* UIImage+TZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80DB812264551500D638E6 /* UIImage+TZ.m */; };
 		6E80DB902264745700D638E6 /* UIDevice+TZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80DB8F2264745700D638E6 /* UIDevice+TZ.m */; };
 		6E94165B218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E941659218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld */; };
@@ -76,6 +77,8 @@
 		6E1BB3CE227053C500C43449 /* TZCompanyListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZCompanyListModel.m; sourceTree = "<group>"; };
 		6E1BB3D02270590900C43449 /* TZCompanyListDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZCompanyListDataModel.h; sourceTree = "<group>"; };
 		6E1BB3D12270590900C43449 /* TZCompanyListDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZCompanyListDataModel.m; sourceTree = "<group>"; };
+		6E1BB3D3227064F100C43449 /* TZChooseCompanyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZChooseCompanyViewController.h; sourceTree = "<group>"; };
+		6E1BB3D4227064F100C43449 /* TZChooseCompanyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZChooseCompanyViewController.m; sourceTree = "<group>"; };
 		6E80DB802264551500D638E6 /* UIImage+TZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TZ.h"; sourceTree = "<group>"; };
 		6E80DB812264551500D638E6 /* UIImage+TZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TZ.m"; sourceTree = "<group>"; };
 		6E80DB8E2264745700D638E6 /* UIDevice+TZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TZ.h"; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 				6ECC21272264431E00F0D431 /* TZLoginViewController.m */,
 				6E1BB3BB226F01F800C43449 /* TZPwdConfirmViewController.h */,
 				6E1BB3BC226F01F800C43449 /* TZPwdConfirmViewController.m */,
+				6E1BB3D3227064F100C43449 /* TZChooseCompanyViewController.h */,
+				6E1BB3D4227064F100C43449 /* TZChooseCompanyViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -441,6 +446,7 @@
 				6E1BB3A62269B9AB00C43449 /* NSDictionary+TZ.m in Sources */,
 				6E1BB3D22270590900C43449 /* TZCompanyListDataModel.m in Sources */,
 				6E80DB902264745700D638E6 /* UIDevice+TZ.m in Sources */,
+				6E1BB3D5227064F100C43449 /* TZChooseCompanyViewController.m in Sources */,
 				6E94165B218AD7FB00916F30 /* TianZhiClouod.xcdatamodeld in Sources */,
 				6E1BB3CC227052C800C43449 /* BaseModel.m in Sources */,
 				6E1BB3A92269B9AB00C43449 /* UIView+Frame.m in Sources */,

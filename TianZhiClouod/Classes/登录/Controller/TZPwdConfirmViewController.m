@@ -9,6 +9,7 @@
 #import "TZPwdConfirmViewController.h"
 #import "TZLoginInputView.h"
 #import "TZLoginViewModel.h"
+#import "TZChooseCompanyViewController.h"
 
 @interface TZPwdConfirmViewController ()
 
@@ -57,16 +58,17 @@
 - (void)initCommand {
     self.viewModel = [[TZLoginViewModel alloc]init];
     RAC(self.viewModel, password) = self.accountInputView.textField.rac_textSignal;
-    //    [[self.viewModel.loginActionCmd.executing skip:1] subscribeNext:^(NSNumber * _Nullable x) {
-    //        if ([x boolValue]) {
-    //            MBProgressHUD *HUD = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    //            HUD.label.text = @"正在验证手机号...";
-    //        }else{
-    //            [MBProgressHUD hideHUDForView:self.view animated:YES];
-    //        }
-    //    }];
+    [[self.viewModel.loginActionCmd.executing skip:1] subscribeNext:^(NSNumber * _Nullable x) {
+        if ([x boolValue]) {
+            MBProgressHUD *HUD = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+            HUD.label.text = @"正在登录...";
+        }else{
+            [MBProgressHUD hideHUDForView:self.view animated:YES];
+        }
+    }];
     [[self.viewModel.loginActionCmd.executionSignals switchToLatest]subscribeNext:^(id  _Nullable x) {
-        
+        TZChooseCompanyViewController *vc = [[TZChooseCompanyViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
     }];
 }
 #pragma mark - UI
